@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprawdzacz palindromów</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Czy to jest palindrom?</h1>
+      <div id="palindrome-checker">
+        <label for="text-input">Wpisz tekst, by sprawdzić czy jest palindromem</label>
+        <div id="input-box">
+          <input type="text" id="text-input" placeholder="Tu wpisz tekst"/>
+          <button id="check-btn">Sprawdź</button>
+        </div>
+        <div id="result">
+          <p id="answer"></p>
+        </div>
+      </div>
+      <div id="palindrome-meaning">
+        <p>Palindrom to wyrażenie brzmiące tak samo czytane od lewej do prawej i od prawej do lewej. Przykładem palindromu jest: Kobyła ma mały bok. Współcześnie palindromy pełnią funkcję gry słownej. Prawdopodobnie tak było również i w przeszłości, choć pewne znaleziska sugerują, że palindromy mogły też mieć znaczenie magiczne.</p>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
